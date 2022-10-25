@@ -8,7 +8,7 @@ formatter.feature({
   ],
   "line": 4,
   "name": "Cadastro de Usuários",
-  "description": "Eu como visitante do sistema\r\nQuero me  cadastrar\r\npara  fazer uma compra",
+  "description": "Eu como visitante do sistema\nQuero me  cadastrar\npara  fazer uma compra",
   "id": "cadastro-de-usuários",
   "keyword": "Funcionalidade",
   "tags": [
@@ -56,27 +56,30 @@ formatter.match({
   "location": "CadastroUsuarioSteps.AcessaCadastroUsuarios()"
 });
 formatter.result({
-  "duration": 10621245499,
-  "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (469, 620)\n  (Session info: chrome\u003d103.0.5060.134)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027THIAGO\u0027, ip: \u002726.249.42.126\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\thiag\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52406}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0dc221c7bde8ad4e08157e6f7c69d313\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat pages.LoginPage.acessarCadastroUsuario(LoginPage.java:45)\r\n\tat steps.CadastroUsuarioSteps.AcessaCadastroUsuarios(CadastroUsuarioSteps.java:20)\r\n\tat ✽.Dado Que estou no cadastro de usuarios(cadastro.feature:12)\r\n",
-  "status": "failed"
+  "duration": 6836914398,
+  "status": "passed"
 });
 formatter.match({
   "location": "CadastroUsuarioSteps.preencho_todos_os_campos_obrigatórios()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 560448082,
+  "status": "passed"
 });
 formatter.match({
   "location": "CadastroUsuarioSteps.clico_em_cadastrar_usuario()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 64484369,
+  "status": "passed"
 });
 formatter.match({
   "location": "CadastroUsuarioSteps.vejo_mensagem_de_cadastro_com_sucesso()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 30411822,
+  "error_message": "org.junit.ComparisonFailure: Os Textos não são iguaais expected:\u003cCadastro realizado[]\u003e but was:\u003cCadastro realizado[!]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat pages.CadastroUsuarioPage.checkCadastroSucesso(CadastroUsuarioPage.java:41)\n\tat steps.CadastroUsuarioSteps.vejo_mensagem_de_cadastro_com_sucesso(CadastroUsuarioSteps.java:37)\n\tat ✽.Então vejo mensagem de cadastro com sucesso(cadastro.feature:15)\n",
+  "status": "failed"
 });
 formatter.uri("login.feature");
 formatter.feature({
@@ -88,7 +91,7 @@ formatter.feature({
   ],
   "line": 4,
   "name": "Login",
-  "description": "Eu como usuário do sistema\r\nQuero fazer login\r\npara fazer uma compra na americanas",
+  "description": "Eu como usuário do sistema\nQuero fazer login\npara fazer uma compra na americanas",
   "id": "login",
   "keyword": "Funcionalidade",
   "tags": [
@@ -114,7 +117,7 @@ formatter.match({
   "location": "LoginSteps.acessaTelaLogin()"
 });
 formatter.result({
-  "duration": 9643149200,
+  "duration": 5171577870,
   "status": "passed"
 });
 formatter.scenario({
@@ -160,21 +163,21 @@ formatter.match({
   "location": "LoginSteps.preencho_e_mail_e_senha(String,String)"
 });
 formatter.result({
-  "duration": 437571800,
+  "duration": 424951030,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.clico_no_botão_de_login()"
 });
 formatter.result({
-  "duration": 108089800,
+  "duration": 87335020,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.sou_loagado_com_sucesso()"
 });
 formatter.result({
-  "duration": 28931099,
+  "duration": 59782878,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -258,7 +261,7 @@ formatter.match({
   "location": "LoginSteps.acessaTelaLogin()"
 });
 formatter.result({
-  "duration": 8441428100,
+  "duration": 5503249879,
   "status": "passed"
 });
 formatter.scenario({
@@ -315,14 +318,14 @@ formatter.match({
   "location": "LoginSteps.preencho_e_mail_e_senha(String,String)"
 });
 formatter.result({
-  "duration": 422406200,
+  "duration": 405060344,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.clico_no_botão_de_login()"
 });
 formatter.result({
-  "duration": 81636600,
+  "duration": 104821534,
   "status": "passed"
 });
 formatter.match({
@@ -335,7 +338,7 @@ formatter.match({
   "location": "LoginSteps.vejo_mensagem(String)"
 });
 formatter.result({
-  "duration": 24607201,
+  "duration": 19776343,
   "status": "passed"
 });
 formatter.background({
@@ -354,7 +357,7 @@ formatter.match({
   "location": "LoginSteps.acessaTelaLogin()"
 });
 formatter.result({
-  "duration": 8665268200,
+  "duration": 7666623936,
   "status": "passed"
 });
 formatter.scenario({
@@ -411,14 +414,14 @@ formatter.match({
   "location": "LoginSteps.preencho_e_mail_e_senha(String,String)"
 });
 formatter.result({
-  "duration": 435854400,
+  "duration": 462326770,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.clico_no_botão_de_login()"
 });
 formatter.result({
-  "duration": 94818900,
+  "duration": 72706247,
   "status": "passed"
 });
 formatter.match({
@@ -431,7 +434,7 @@ formatter.match({
   "location": "LoginSteps.vejo_mensagem(String)"
 });
 formatter.result({
-  "duration": 25473301,
+  "duration": 21096890,
   "status": "passed"
 });
 });

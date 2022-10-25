@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11db902b-117a-4b17-827c-7435a76ddf62" name="Changes" comment="" />
+    <list default="true" id="11db902b-117a-4b17-827c-7435a76ddf62" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumberTests.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumberTests.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/report.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,19 +41,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/thiag/IdeaProjects/MasterClassTurmaII/.github/workflows&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/thiago/IdeaProjects/MasterClassTurmaII",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\thiag\IdeaProjects\MasterClassTurmaII\.github\workflows" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -151,8 +157,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.All Features in: test" />
-      <item itemvalue="Cucumber Java.Feature: cadastro" />
       <item itemvalue="JUnit.CadastroUsuarioPage" />
       <item itemvalue="JUnit.CadastroUsuarioSteps" />
       <item itemvalue="JUnit.RunTests" />
@@ -161,7 +165,6 @@
       <list>
         <item itemvalue="JUnit.RunTests" />
         <item itemvalue="JUnit.CadastroUsuarioPage" />
-        <item itemvalue="Cucumber Java.Feature: cadastro" />
         <item itemvalue="JUnit.CadastroUsuarioSteps" />
       </list>
     </recent_temporary>
